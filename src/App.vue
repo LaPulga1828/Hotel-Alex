@@ -1,24 +1,29 @@
 <template>
   <div>
     <q-layout view="hHh lpR fff">
-        <q-header elevated class="bg-primary text-white" height-hint="98" :style="{ color: 'black' }">
-          <q-toolbar>
-            <q-toolbar-title class=" text-dark">
-              <q-avatar>
-                <img src="./assets/img/logo.jpeg" />
-              </q-avatar >
-              Hotel Portal Guane
-            </q-toolbar-title>
-          </q-toolbar>
+      <q-header
+        elevated
+        class="bg-primary text-white"
+        height-hint="98"
+        :style="{ color: 'black' }"
+      >
+        <q-toolbar>
+          <q-toolbar-title class="text-dark">
+            <q-avatar>
+              <img src="./assets/img/logo.jpeg" />
+            </q-avatar>
+            Hotel Portal Guane
+          </q-toolbar-title>
+        </q-toolbar>
 
-          <q-tabs align="left" class=" text-dark">
-            <q-route-tab to="/inicio" label="Inicio" />
-            <q-route-tab to="/habitaciones" label="Habitaciones" />
-            <q-route-tab to="/deportes" label="Deportes extremos" />
-            <q-route-tab to="/gastronomia" label="Nuestra gastronomía" />
-            <q-route-tab to="/servicios-extra" label="Servicios extra" />
-          </q-tabs>
-        </q-header>
+        <q-tabs align="left" class="text-dark">
+          <q-route-tab to="/inicio" label="Inicio" />
+          <q-route-tab to="/habitaciones" label="Habitaciones" />
+          <q-route-tab to="/deportes" label="Deportes extremos" />
+          <q-route-tab to="/gastronomia" label="Nuestra gastronomía" />
+          <q-route-tab to="/servicios-extras" label="Servicios extra" />
+        </q-tabs>
+      </q-header>
 
       <q-drawer
         style="display: flex; flex-direction: column; gap: 5px"
@@ -43,7 +48,18 @@
             <q-avatar>
               <img src="./assets/img/logo.jpeg" />
             </q-avatar>
-            <div>t</div>
+            <div>
+              <h4>Contáctanos</h4>
+              <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Hotel Portal Guane</span>
+                <i class="fa-brands fa-youtube"></i>
+                <span>Hotel Portal Guane</span>
+                <i class="fa-solid fa-envelope"></i>
+                <span>hotelportalguane@gmail.com</span>
+                <i class="fa-solid fa-phone"></i> <span>+57 312 234 2345</span>
+              </div>
+            </div>
           </q-toolbar-title>
         </q-toolbar>
       </q-footer>

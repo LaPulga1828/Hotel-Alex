@@ -4,9 +4,11 @@ import { createApp } from 'vue'
 import { Quasar } from 'quasar'
 import {router} from "./routes/routes.js"
 
+
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css'
 
+import './css/style.scss'
 // Import Quasar css
 import 'quasar/src/css/index.sass'
 

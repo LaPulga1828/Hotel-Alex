@@ -1,0 +1,173 @@
+/* estilos pagina principal */
+
+* {
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    margin: none;
+}
+
+body {
+    background-color: #F3EFE6;
+}
+
+.sub-tit {
+    color: brown;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+/* intro */
+#intro {
+    background-image: url(../assets/img/hotel.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro h2,
+#intro h5 {
+    font-weight: bold;
+    color: #e9fad5;
+}
+
+/* informacion general */
+#info {
+    height: 70vh;
+    background-color: #FBEECE;
+    padding-top: 30px;
+}
+
+#info p {
+    font-size: 20px;
+}
+
+#info h3 {
+    text-align: center;
+}
+
+#info h5,
+#habitaciones h4 {
+    color: brown;
+    font-weight: bold;
+
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nosotros img {
+    width: 500px;
+    height: 500px;
+}
+
+.portal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* habitaciones */
+#habitaciones {
+    background-color: #DFCFC2;
+    padding: 30px;
+}
+
+#habitaciones h3,
+#habitaciones h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#habitaciones p {
+    font-size: 20px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto-h {
+    padding-left: 30px;
+    justify-self: center;
+    align-self: center;
+}
+
+/* gastronomia */
+#comida {
+    background-color: #FBEECE;
+}
+
+/* media queries */
+@media (max-width: 1370px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    }
+}
+
+@media (max-width: 1120px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: 0.3fr 1fr 1fr 0.3fr;
+    }
+}
+
+@media (max-width: 970px) {
+    .nosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 40px;
+    }
+
+    .sp {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    #info {
+        height: 100vh;
+    }
+
+    .nosotros {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 615px) {
+    #intro {
+        padding: 30px;
+    }
+
+    .nosotros img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .catalogo {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 385px) {
+    .nosotros img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #habitaciones {
+        background-color: #DFCFC2;
+        padding: 10px;
+    }
+
+}
