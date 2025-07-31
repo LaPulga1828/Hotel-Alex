@@ -4,27 +4,27 @@
             <q-img :src="props.imageUrl" />
 
             <q-card-section color="card">
-                <div class="text-overline text-orange-9">{{ props.overline }}</div>
+                <div class="text-overline text-warning">{{ props.overline }}</div>
                 <div class="text-h5 q-mt-sm q-mb-xs">{{ props.tile }}</div>
-                <div class="text-caption text-grey">
+                <div class="text-caption text-white">
                     {{ props.descripcion }}
                 </div>
             </q-card-section>
 
             <q-card-actions>
-                <q-btn flat color="pr" :label="props.precio" />
-                <q-btn flat color="secondary" label="Reservar" />
+                <q-btn flat color="dark" :label="props.precio" />
+                <q-btn flat color="accent" label="Reservar" />
 
                 <q-space />
 
-                <q-btn color="grey" round flat dense :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
+                <q-btn color="white" round flat dense :icon="expanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
                     @click="expanded = !expanded" />
             </q-card-actions>
 
             <q-slide-transition>
                 <div v-show="expanded">
                     <q-separator />
-                    <q-card-section class="text-subtitle2">
+                    <q-card-section class="text-subtitle2 text-white">
                         {{ props.descripcionComplete }}
                     </q-card-section>
                 </div>
@@ -77,5 +77,6 @@ const props= defineProps({
 .my-card
   width: 100%
   max-width: 380px
-  background-color: #f3efe6
+  background-color: #5f6c5a
+
 </style>
