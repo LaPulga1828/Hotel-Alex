@@ -12,11 +12,11 @@
           </q-toolbar>
 
           <q-tabs align="left" class=" text-dark">
-            <q-route-tab to="/page1" label="Inicio" />
-            <q-route-tab to="/page2" label="Habitaciones" />
-            <q-route-tab to="/page3" label="Deportes extremos" />
-            <q-route-tab to="/page1" label="Nuestra gastronomía" />
-            <q-route-tab to="/page2" label="Servicios extra" />
+            <q-route-tab to="/inicio" label="Inicio" />
+            <q-route-tab to="/habitaciones" label="Habitaciones" />
+            <q-route-tab to="/deportes" label="Deportes extremos" />
+            <q-route-tab to="/gastronomia" label="Nuestra gastronomía" />
+            <q-route-tab to="/servicios-extra" label="Servicios extra" />
           </q-tabs>
         </q-header>
 
