@@ -95,67 +95,285 @@ Precio por noche: $300.000 COP
 ------------------------------
 GASTRONOMIA
 ------------------------------
-Frase corta: Sabor santandereano para empezar el día con energía.
-Descripción: Un desayuno tradicional con los sabores auténticos de la región. Ideal para comenzar la mañana con fuerza y gusto.
-Incluye:
+Menú Desayuno Típico
+Frase corta: Energía santandereana para comenzar tu día.
+Descripción: Disfruta de un desayuno tradicional con los sabores auténticos de nuestra tierra. Preparado con ingredientes frescos y locales.
 
+Incluye:
 Caldo de costilla o caldo de huevo
-
-Arepa santandereana o almojábana
-
+Arepa santandereana
 Huevos al gusto
-
 Queso campesino
+Chocolate caliente o café
+Jugo natural de temporada
+Precio por persona: $22.000 COP
 
-Chocolate caliente, café o aguapanela
+------------------------------
+Menú Típico
+Frase corta: Una explosión de sabor santandereano en cada plato.
+Descripción: Vive la experiencia de nuestra gastronomía con los platos más representativos de la región, servidos con amor campesino.
 
-Fruta fresca de temporada
-Precio: $18.000 COP
-
-🍽️ Menú Típico
-Frase corta: Tradición y sabor en cada bocado.
-Descripción: Un almuerzo completo que representa lo mejor de la gastronomía santandereana. Preparado con ingredientes frescos y técnicas tradicionales.
-Incluye:
-
-Sopa del día (mute, cuchuco o mazamorra salada)
-
-Cabrito al horno, carne oreada o sobrebarriga criolla
-
-Yuca, papa criolla o arroz con ahogado
-
-Ensalada fresca
-
+Platos:
+Cabrito con yuca y pepitoria
+Sobrebarriga criolla
+Tamal santandereano
+Sudado de gallina criolla
+Acompañamientos:
+Arroz, ensalada fresca, yuca o papa criolla
 Jugo natural
-Precio: $30.000 COP
+Precio por persona: $36.000 COP
+------------------------------
+Menú Postres
+Frase corta: El dulce final con sabor a tradición.
+Descripción: Delicias caseras con recetas tradicionales, ideales para cerrar tu comida o acompañar una buena charla.
 
-🍰 Menú Postres
-Frase corta: Un dulce final con sabor a tradición.
-Descripción: Postres artesanales hechos en casa, con recetas típicas de la región y un toque moderno para satisfacer todos los paladares.
-Incluye (elige uno):
-
-Dulce de leche con queso
-
-Bocadillo con cuajada
-
-Arequipe artesanal
-
+Postres:
+Arequipe artesanal con obleas
 Postre de natas
+Dulce de brevas con queso
+Torta de maíz con panela
+Bocadillo veleño con cuajada
+Precio por persona: $12.000 COP
 
-Helado de café o guanábana
-Precio: $10.000 COP
+------------------------------
+Menú Americano
+Frase corta: Un desayuno clásico para comenzar el día con todo.
+Descripción: Un desayuno internacional con opciones ligeras y deliciosas, ideal para quienes prefieren un estilo más occidental.
 
-🥓 Menú Americano
-Frase corta: Un clásico internacional para comenzar el día con estilo.
-Descripción: Una opción de desayuno más internacional para quienes prefieren sabores globales sin perder la calidez del servicio local.
+Incluye:
+Tostadas o pan artesanal
+Huevos al gusto
+Tocinetas
+Mantequilla y mermelada
+Café americano o té
+Jugo de naranja natural
+
+Precio por persona: $25.000 COP
+
+------------------------------
+Menú Almuerzo Típico
+Frase corta: Sabores de hogar servidos con identidad santandereana.
+Descripción: Platos abundantes y llenos de sabor, pensados para recargar energías con lo mejor de la cocina tradicional.
+
+Platos:
+Pescado frito con patacones y arroz de coco
+Bandeja santandereana (carne oreada, chorizo, arepa, arroz, plátano)
+Sancocho de gallina con mazorca
+Lomo al trapo con papas criollas
+Acompañamientos:
+Ensalada del día
+Bebida natural
+Postre casero
+
+Precio por persona: $38.000 COP
+
+------------------------------
+Menú Bebidas
+Frase corta: Refresca el cuerpo, celebra el momento.
+Descripción: Bebidas frías y calientes para todos los gustos, con ingredientes naturales y presentaciones artesanales.
 Incluye:
 
-Huevos revueltos con jamón o salchicha
+Jugos naturales (guanábana, lulo, mora, maracuyá) – $8.000
 
-Tostadas o pan artesanal
+Limonada de panela o hierbabuena – $7.000
 
-Mantequilla y mermelada
+Café campesino o tinto – $5.000
 
-Jugo de naranja
+Chocolate santandereano – $6.000
 
-Café americano o té
-Precio: $22.000 COP
+Cerveza artesanal Guane – $12.000
+
+Agua de panela con limón – $4.000
+
+------------------------------
+DEPORTES
+------------------------------
+🌊 Rafting en el río Fonce
+Frase corta: ¡Desciende por la adrenalina de Santander!
+Descripción: Embárcate en una aventura acuática a través del río Fonce, navegando por rápidos emocionantes rodeado de naturaleza y montañas. Ideal para quienes buscan una experiencia divertida y enérgica.
+Incluye:
+
+Guía profesional
+
+Equipos de seguridad (casco, chaleco, remo)
+
+Transporte desde el hotel
+
+Hidratación
+Duración: 2 horas
+Nivel: Intermedio
+Edad mínima: 12 años
+Precio por persona: $95.000 COP
+
+🪂 Parapente sobre el Cañón del Chicamocha
+Frase corta: ¡Vuela libre con la mejor vista de Colombia!
+Descripción: Experimenta la libertad de volar sobre uno de los paisajes más impresionantes del país. Vistas panorámicas, viento fresco y una sensación que jamás olvidarás.
+Incluye:
+
+Instructor certificado (vuelo tándem)
+
+Transporte ida y regreso
+
+Seguro de actividad
+
+Video del vuelo (opcional)
+Duración del vuelo: 20 a 30 minutos
+Nivel: Apto para principiantes
+Edad mínima: 14 años
+Precio por persona: $160.000 COP
+
+🕳️ Espeleología en cuevas de Curití
+Frase corta: Explora las entrañas de la tierra Guane.
+Descripción: Adéntrate en misteriosas cuevas subterráneas con formaciones milenarias, ríos internos y fósiles. Una experiencia para los curiosos y amantes de la naturaleza oculta.
+Incluye:
+
+Guía especializado
+
+Linterna frontal, casco y botas
+
+Seguro de actividad
+
+Transporte desde el hotel
+Duración: 3 a 4 horas
+Nivel: Moderado
+Edad mínima: 10 años
+Precio por persona: $85.000 COP
+
+⛰️ Torrentismo en cascadas de Juan Curí
+Frase corta: Desciende por la fuerza del agua, ¡despierta tus sentidos!
+Descripción: Vive la emoción de descender por una cascada de más de 60 metros, entre naturaleza viva, rocas resbaladizas y pura adrenalina.
+Incluye:
+
+Instructor experto y guía de seguridad
+
+Arnés, casco y cuerda de descenso
+
+Seguro y transporte
+Duración: 2 horas
+Nivel: Intermedio–avanzado
+Edad mínima: 14 años
+Precio por persona: $120.000 COP
+
+🧗‍♂️ Bungee Jumping sobre el Fonce
+Frase corta: Un salto que cambiará tu forma de ver el mundo.
+Descripción: Lánzate al vacío desde una plataforma a 70 metros de altura y siente la adrenalina en su forma más pura. Solo para los valientes.
+Incluye:
+
+Instructor certificado
+
+Arnés de seguridad y equipo profesional
+
+Seguro extremo
+
+Transporte desde el hotel
+Duración total: 1 hora (incluyendo preparación)
+Nivel: Alto impacto emocional
+Edad mínima: 16 años
+Precio por persona: $150.000 COP
+
+🧗 Rappel en formaciones rocosas de Barichara
+Frase corta: Desciende con técnica y emoción entre paredes ancestrales.
+Descripción: Una actividad perfecta para desafiar la gravedad mientras desciendes por paredes naturales con el apoyo de expertos.
+Incluye:
+
+Guía experto y equipo certificado
+
+Arnés, cuerda, casco
+
+Hidratación y refrigerio
+
+Transporte
+Duración: 1.5 horas
+Nivel: Básico a intermedio
+Edad mínima: 10 años
+Precio por persona: $70.000 COP
+
+
+------------------------------
+SERVICIOS EXTRA
+------------------------------
+🏊 Piscina Panorámica
+Frase corta: Sumérgete en la calma con vista a las montañas.
+Descripción: Nuestra piscina al aire libre es el lugar perfecto para refrescarse, relajarse y disfrutar de los atardeceres de Santander. Rodeada de jardines y con zona de descanso.
+Incluye:
+
+Acceso a piscina adultos y niños
+
+Camas tipo lounge y sombrillas
+
+Ducha y vestidores
+
+Servicio de bebidas (con costo adicional)
+Acceso: Libre para huéspedes
+Pase diario externo: $25.000 COP por persona
+
+🧑‍💼 Sala de Reuniones
+Frase corta: Reúnete en un espacio cómodo y natural.
+Descripción: Un salón privado equipado para reuniones de trabajo, presentaciones o eventos pequeños, con vista a jardines y café disponible.
+Incluye:
+
+Pantalla, proyector y pizarra
+
+Wifi de alta velocidad
+
+Estación de café y agua
+
+Capacidad hasta 20 personas
+Acceso: Bajo reserva
+Precio: $80.000 COP por hora / $300.000 COP jornada completa
+
+💆 Spa Rural Portal Guane
+Frase corta: Relájate con los aromas y sonidos de la naturaleza.
+Descripción: Espacio de relajación con terapias ancestrales y productos naturales de la región. Ideal para renovar cuerpo y mente.
+Incluye (según sesión):
+
+Masaje con piedras calientes
+
+Aromaterapia con hierbas locales
+
+Baños de esencias
+
+Masajes relajantes o descontracturantes
+Acceso: Bajo cita previa
+Precios desde: $70.000 COP por sesión (30 min)
+
+⚽ Canchas Recreativas
+Frase corta: Diversión al aire libre para todas las edades.
+Descripción: Áreas deportivas para disfrutar en grupo o en familia, rodeadas de naturaleza y con iluminación nocturna.
+Incluye:
+
+Cancha de microfútbol en césped
+
+Cancha de vóley-playa
+
+Balones disponibles en recepción
+Acceso: Libre para huéspedes
+Renta para externos: $40.000 COP por hora
+
+🏋️ Gimnasio Natural
+Frase corta: Activa tu cuerpo en un entorno saludable.
+Descripción: Espacio de entrenamiento con máquinas básicas y vistas verdes para que mantengas tu rutina incluso en vacaciones.
+Incluye:
+
+Pesas, caminadora, bicicleta estática
+
+Esterillas de yoga y cuerdas
+
+Zona techada y ventilada
+Acceso: Libre para huéspedes
+Horario: 6:00 a.m. – 9:00 p.m.
+
+🎲 Salas de Juegos y Entretenimiento
+Frase corta: Diversión asegurada para grandes y chicos.
+Descripción: Un espacio acogedor para compartir momentos de ocio en pareja, familia o con nuevos amigos.
+Incluye:
+
+Mesa de billar
+
+Juegos de mesa (ajedrez, dominó, cartas)
+
+Televisor con consola de videojuegos
+
+Área de lectura y mini biblioteca
+Acceso: Libre para huéspedes
+Renta privada (opcional): $50.000 COP por 2 horas
