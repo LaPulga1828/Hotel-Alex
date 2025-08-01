@@ -68,8 +68,6 @@ const props= defineProps({
         require:true
     },
 });
-
-
 </script>
 
 <style lang="sass" scoped>

@@ -20,11 +20,7 @@
             un destino inolvidable.
           </p>
 
-          <q-btn
-            outline
-            style="color: goldenrod"
-            label="Reservar una habitación"
-          />
+          <q-btn outline style="color: goldenrod" label="Reservar" />
         </div>
 
         <div class="portal">
@@ -130,7 +126,6 @@
 
     <section id="comida">
       <h3 class="sub-tit">Nuestra comida</h3>
-
       <p>
         En Portal Guane, la cocina es parte fundamental de la experiencia.
         Nuestro restaurante rinde homenaje a la rica tradición culinaria de
@@ -152,6 +147,19 @@
         vivirás un recorrido por la identidad gastronómica de Santander, servido
         con la calidez de nuestra gente y el encanto de nuestra tradición.
       </p>
+
+      <h4>Platos destacados</h4>
+
+      <div class="cards">
+        <CardComidasIni
+          v-for="p in comidas"
+          :key="p.id"
+          :title="p.title"
+          :rating="p.rating"
+          :reviewCount="p.reviewCount"
+          :imageSrc="p.imageSrc"
+        ></CardComidasIni>
+      </div>
     </section>
 
     <section id="servicios">
@@ -168,12 +176,52 @@
 import { ref } from "vue";
 
 const slide = ref("first");
+
+import CardComidasIni from "../components/CardComidasIni.vue";
+
+const comidas = [
+  {
+    id: 1,
+    title: "Desayuno Típico",
+    rating: 4.9,
+    reviewCount: 24,
+    imageSrc: "/src/assets/img/comida/desayunotip.jpg",
+  },
+
+  {
+    id: 2,
+    title: "Pepitoria",
+    rating: 4.7,
+    reviewCount: 26,
+    imageSrc: "/src/assets/img/comida/pepitoria.jpg",
+  },
+
+  {
+    id: 3,
+    title: "Bebidas",
+    rating: 4.9,
+    reviewCount: 24,
+    imageSrc: "/src/assets/img/comida/bebidas.jpg",
+  },
+
+  {
+    id: 4,
+    title: "Almuerzo santandereano",
+    rating: 5.0,
+    reviewCount: 35,
+    imageSrc: "/src/assets/img/comida/santander.jpg",
+  },
+];
 </script>
 
 <style lang="sass" scoped>
 .custom-caption
-    text-align: center
-    padding: 12px
-    color: white
-    background-color: rgba(0, 0, 0, .3)
+  text-align: center
+  padding: 12px
+  color: white
+  background-color: rgba(0, 0, 0, .3)
+
+.my-card
+  width: 100%
+  max-width: 300px
 </style>

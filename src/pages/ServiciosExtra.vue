@@ -21,7 +21,7 @@ import CardInfo from '../components/CardInfo.vue';
 const products = [
     {
         id: 1,
-        name: "Teclado Mecánico RGB",
+        title: "Teclado Mecánico RGB",
         overline:"⭐5 ESTRELLAS",
         image: "/src/assets/img/habitaciones/hab1.jpeg",
         price: 89.99,

@@ -57,7 +57,7 @@
                 <span>Hotel Portal Guane</span>
                 <i class="fa-solid fa-envelope"></i>
                 <span>hotelportalguane@gmail.com</span>
-                <i class="fa-solid fa-phone"></i> <span>+57 312 234 2345</span>
+                <i class="fa-solid fa-phone"></i> <span>+57 321 321 3213</span>
               </div>
             </div>
           </q-toolbar-title>
