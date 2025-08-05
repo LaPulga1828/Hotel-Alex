@@ -1,7 +1,7 @@
 <template>
     <div class="q-pa-md row items-start q-gutter-md">
         <q-card class="my-card"   flat bordered>
-            <q-img :src="props.imageUrl" />
+            <q-img :src="props.imageUrl"  class="card-img"/>
 
             <q-card-section color="card">
                 <div class="text-overline text-warning">{{ props.overline }}</div>
@@ -25,7 +25,7 @@
                 <div v-show="expanded">
                     <q-separator />
                     <q-card-section class="text-subtitle2 text-white">
-                        {{ props.descripcionComplete }}
+                        <div v-html="props.descripcionComplete"></div>
                     </q-card-section>
                 </div>
             </q-slide-transition>

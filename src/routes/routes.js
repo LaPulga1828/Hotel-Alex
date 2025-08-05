@@ -8,6 +8,7 @@ import {createRouter, createWebHashHistory} from "vue-router"
 
 const routes = [
     
+    {path: '/',redirect: '/inicio'},
     { path:"/inicio" ,component: Inicio },
     { path:"/habitaciones" ,component: Habitaciones },
     { path:"/gastronomia" ,component: Gastronomia },

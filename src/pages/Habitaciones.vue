@@ -1,17 +1,13 @@
 <template>
     <div>
         <h1>Habitaciones</h1>
-        <div style="display: flex; flex-wrap: wrap;"><CardInfo v-for="p in products" :key="p.id"
-        :imageUrl="p.image"
-        :overline="p.overline"
-        :tile="p.name"
-        :precio="p.price"
-        :descripcion="p.description"
-        :descripcionComplete="p.description"
-        >
+        <div style="display: flex; flex-wrap: wrap;">
+            <CardInfo v-for="p in products" :key="p.id" :imageUrl="p.image" :overline="p.overline" :tile="p.name"
+                :precio="p.price" :descripcion="p.description" :descripcionComplete="p.descripcionComplete">
 
-        </CardInfo></div>
-        
+            </CardInfo>
+        </div>
+
     </div>
 </template>
 
@@ -22,35 +18,39 @@ import CardInfo from '../components/CardInfo.vue';
 const products = [
     {
         id: 1,
-        name: "Teclado Mecánico RGB",
-        overline:"⭐5 ESTRELLAS",
-        image: "/src/assets/img/habitaciones/hab1.jpeg",
-        price: 89.99,
-        description:
-            "Teclado gaming con switches mecánicos y retroiluminación RGB personalizable.",
+        name: "Suite Familiar con Terraza",
+        overline: "⭐5 ESTRELLAS",
+        image: "/Hotel-Alex/src/assets/img/habitaciones/hab1.jpeg",
+        price: "$420.000 COP",
+        description: "Espacio, comodidad y vistas para compartir en familia.",
+        descripcionComplete: `Perfecta para familias o grupos, esta amplia suite cuenta con dos camas dobles, una sala de estar y una terraza privada con vista a las montañas. Diseñada para el descanso y la convivencia en un ambiente acogedor y natural.<br><br><strong>Incluye:</strong><br>- 2 camas dobles<br>- Terraza privada<br>- Sala de estar<br>- Baño privado con agua caliente<br>- Wifi y ventilador<br>- Desayuno típico incluido`
     },
     {
         id: 2,
-        name: "Ratón Inalámbrico Ergonómico",
-        image: "",
-        price: 35.5,
-        description:
-            "Ratón con diseño ergonómico y conectividad inalámbrica de baja latencia.",
+        name: "Business Twin con Balcón",
+        overline: "⭐4 ESTRELLAS",
+        image: "/Hotel-Alex/src/assets/img/habitaciones/hab2.jpeg",
+        price: "$280.000 COP",
+        description: "Funcionalidad y tranquilidad para tus viajes de trabajo.",
+        descripcionComplete: `Ideal para viajes de negocios o amigos que comparten habitación. Ofrece dos camas individuales, escritorio de trabajo y un balcón con vista al jardín. Un espacio práctico con el encanto de lo tradicional.<br><br><strong>Incluye:</strong><br>- 2 camas sencillas<br>- Balcón privado<br>- Escritorio de trabajo<br>- Wifi de alta velocidad<br>- Baño privado<br>- Desayuno típico incluido`
     },
     {
         id: 3,
-        name: 'Monitor Ultra-Wide 34"',
-        image: "https://www.lg.com/content/dam/channel/wcms/co/images/monitores/24mp400-b_awp_escb_co_c/gallery/DZ-2.jpg",
-        price: 499.0,
-        description:
-            "Monitor curvo de 34 pulgadas con resolución QHD y alta tasa de refresco.",
+        name: "Suite Familiar con Terraza",
+        overline: "⭐5 ESTRELLAS",
+        image: "/Hotel-Alex/src/assets/img/habitaciones/hab3.jpeg",
+        price: "$420.000 COP",
+        description: "Espacio, comodidad y vistas para compartir en familia.",
+        descripcionComplete: `Perfecta para familias o grupos, esta amplia suite cuenta con dos camas dobles, una sala de estar y una terraza privada con vista a las montañas. Diseñada para el descanso y la convivencia en un ambiente acogedor y natural.<br><br><strong>Incluye:</strong><br>- 2 camas dobles<br>- Terraza privada<br>- Sala de estar<br>- Baño privado con agua caliente<br>- Wifi y ventilador<br>- Desayuno típico incluido`
     },
     {
         id: 4,
-        name: "Webcam HD 1080p",
-        image: "https://m.media-amazon.com/images/I/61-K2lXmHQL.jpg",
-        price: 25.0,
-        // Este no tendrá una descripción específica para ver el default
+        name: "Suite Familiar con Terraza",
+        overline: "⭐5 ESTRELLAS",
+        image: "/Hotel-Alex/src/assets/img/habitaciones/hab4.jpg",
+        price: "$420.000 COP",
+        description: "Espacio, comodidad y vistas para compartir en familia.",
+        descripcionComplete: `Perfecta para familias o grupos, esta amplia suite cuenta con dos camas dobles, una sala de estar y una terraza privada con vista a las montañas. Diseñada para el descanso y la convivencia en un ambiente acogedor y natural.<br><br><strong>Incluye:</strong><br>- 2 camas dobles<br>- Terraza privada<br>- Sala de estar<br>- Baño privado con agua caliente<br>- Wifi y ventilador<br>- Desayuno típico incluido`
     },
 ];
 
