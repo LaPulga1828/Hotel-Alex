@@ -45,10 +45,7 @@
       <q-footer elevated class="bg-grey-8 text-white">
         <q-toolbar>
           <q-toolbar-title>
-            <q-avatar>
-              <img src="./assets/img/logo.jpeg" />
-            </q-avatar>
-            <div>
+            <div class="contactos">
               <h4>Contáctanos</h4>
               <div class="icons">
                 <i class="fa-brands fa-facebook"></i>
@@ -74,3 +71,4 @@ function toggleRightDrawer() {
   rightDrawerOpen.value = !rightDrawerOpen.value;
 }
 </script>
+

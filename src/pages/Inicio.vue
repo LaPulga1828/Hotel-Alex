@@ -163,11 +163,52 @@
     </section>
 
     <section id="servicios">
-      <h3 class="sub-tit">Servicios extras</h3>
+      <h3>Servicios extras</h3>
+
+      <h4>
+        Tenemos todo lo que necesitas para hacer inolvidable tu experiencia
+      </h4>
+      <div class="iconos">
+        <div class="icon_cont">
+          <i class="fa-solid fa-spa"></i>
+          <h5>SPA</h5>
+        </div>
+        <div class="icon_cont">
+          <i class="fa-solid fa-water-ladder"></i>
+          <h5>Piscina</h5>
+        </div>
+        <div class="icon_cont">
+          <i class="fa-solid fa-futbol"></i>
+          <h5>Canchas</h5>
+        </div>
+        <div class="icon_cont">
+          <i class="fa-solid fa-dumbbell"></i>
+          <h5>Gimnasio</h5>
+        </div>
+        <div class="icon_cont">
+          <i class="fa-solid fa-trophy"></i>
+          <h5>Salas de juego</h5>
+        </div>
+        <div class="icon_cont">
+          <i class="fa-solid fa-couch"></i>
+          <h5>Salas de reunión</h5>
+        </div>
+      </div>
     </section>
 
     <section id="deportes">
       <h3 class="sub-tit">Deportes extremos</h3>
+
+      <p>Nuestro convenio nos permite brindarte una experiencia extrema.</p>
+      <p> ★ Descubre el Santander aventurero ★</p>
+      
+      <div class="collage-container">
+        <div class="row">
+          <div class="col-4" v-for="(image, index) in images" :key="index">
+            <q-img :src="image.src" :alt="image.alt" class="collage-image" />
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -185,7 +226,7 @@ const comidas = [
     title: "Desayuno Típico",
     rating: 4.9,
     reviewCount: 24,
-    imageSrc: "/src/assets/img/comida/desayunotip.jpg",
+    imageSrc: "/Hotel-Alex/src/assets/img/comida/desayunotip.jpg",
   },
 
   {
@@ -193,7 +234,7 @@ const comidas = [
     title: "Pepitoria",
     rating: 4.7,
     reviewCount: 26,
-    imageSrc: "/src/assets/img/comida/pepitoria.jpg",
+    imageSrc: "/Hotel-Alex/src/assets/img/comida/pepitoria.jpg",
   },
 
   {
@@ -201,7 +242,7 @@ const comidas = [
     title: "Bebidas",
     rating: 4.9,
     reviewCount: 24,
-    imageSrc: "/src/assets/img/comida/bebidas.jpg",
+    imageSrc: "/Hotel-Alex/src/assets/img/comida/bebidas.jpg",
   },
 
   {
@@ -209,9 +250,19 @@ const comidas = [
     title: "Almuerzo santandereano",
     rating: 5.0,
     reviewCount: 35,
-    imageSrc: "/src/assets/img/comida/santander.jpg",
+    imageSrc: "/Hotel-Alex/src/assets/img/comida/santander.jpg",
   },
 ];
+
+
+const images = ref([
+  { src: '/Hotel-Alex/src/assets/img/deportes/bungee.webp', alt: 'Deporte 1' },
+  { src: '/Hotel-Alex/src/assets/img/deportes/torrentismo.webp', alt: 'Deporte 2' },
+  { src: '/Hotel-Alex/src/assets/img/deportes/parapente.webp', alt: 'Deporte 3' },
+  { src: '/Hotel-Alex/src/assets/img/deportes/cuevas.webp', alt: 'Deporte 4' },
+  { src: '/Hotel-Alex/src/assets/img/deportes/rafting.webp', alt: 'Deporte 5' },
+  { src: '/Hotel-Alex/src/assets/img/deportes/rappel.jpg', alt: 'Deporte 6' },
+]);
 </script>
 
 <style lang="sass" scoped>
@@ -224,4 +275,22 @@ const comidas = [
 .my-card
   width: 100%
   max-width: 300px
+
+  .collage-container
+    width: 100%
+
+.collage-image
+  width: 100%
+  height: auto
+  object-fit: cover
+  border: 2px solid white
+
+.row
+  display: flex
+  flex-wrap: wrap
+
+.col-4
+  flex: 0 0 33.33%; 
+  max-width: 33.33%
+  padding: 5px; 
 </style>
