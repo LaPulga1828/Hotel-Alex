@@ -329,3 +329,55 @@ body {
     }
 
 }
+
+
+/* estilos habitaciones */
+
+.divhabs{
+    background-color:#DFCFC2 ;
+    height: 100%;
+    padding-top:20px;
+}
+
+.divhabs h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: brown;
+}
+
+.habs{
+    padding-top: 40px;
+}
+
+.verde-textura{
+    background-image: url(../../public/img/patron_2.jpg);
+    height: 30vh;
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.verde-textura p{
+    background-color: #788915;
+    padding: 30px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+/* estilos deportes */
+
+iframe{
+    width: 90vw;
+    height: 80vh;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ahhhhh josé no alcancé a hacer más, peldón */
