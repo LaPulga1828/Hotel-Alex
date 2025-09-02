@@ -1,6 +1,6 @@
-<template>
-    <div>
-        <h1>Gatronomia</h1>
+<template >
+    <div class="gastronomia">
+        <h1>Gastronomía</h1>
         <div style="display: flex; flex-wrap: wrap;">
             <CardInfo v-for="p in menus" :key="p.id" :imageUrl="p.image" :overline="p.overline" :tile="p.name"
                 :precio="p.price" :descripcion="p.description" :descripcionComplete="p.descripcionComplete">

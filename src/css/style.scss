@@ -209,7 +209,113 @@ body {
     align-self: center;
 }
 
+/* estilos habitaciones */
+
+.divhabs {
+    background-color: #DFCFC2;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.divhabs h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: brown;
+}
+
+.habs {
+    padding-top: 40px;
+}
+
+.verde-textura {
+    background-image: url(../../public/img/patron_2.jpg);
+    height: 30vh;
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.verde-textura p {
+    background-color: #788915;
+    padding: 30px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+/* estilos deportes */
+
+iframe {
+    width: 90vw;
+    height: 80vh;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+.dep-tit {
+    text-align: center;
+}
+
+.dep-text {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: brown;
+}
+
+/* estilos comida */
+
+.gastronomia {
+    background-image: url(../../public/img/patron_verde.jpg);
+}
+
+.gastronomia h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #A09E49;
+}
+
+/* estilos servicios */
+
+.div-serv {
+    background-image: url(../../public/img/patron4.jpeg);
+}
+
+.div-serv h1 {
+    margin: 0;
+    text-align: center;
+    color: #FBEECE;
+    padding: 20px;
+}
+
+.serv-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    font-size: 20px;
+    padding-left: 20px;
+    background-image: url(../../public/img/patron_3.jpg);
+    color: #FBEECE;
+    padding:30px ;
+}
+
 /* media queries */
+
 @media (max-width: 1370px) {
     .nosotros {
         display: grid;
@@ -263,6 +369,11 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .serv-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 840px) {
@@ -310,6 +421,11 @@ body {
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    .serv-text {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 385px) {
@@ -329,55 +445,3 @@ body {
     }
 
 }
-
-
-/* estilos habitaciones */
-
-.divhabs{
-    background-color:#DFCFC2 ;
-    height: 100%;
-    padding-top:20px;
-}
-
-.divhabs h1{
-    margin: 0;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    color: brown;
-}
-
-.habs{
-    padding-top: 40px;
-}
-
-.verde-textura{
-    background-image: url(../../public/img/patron_2.jpg);
-    height: 30vh;
-    font-size: 20px;
-    padding: 30px;
-    color: white;
-}
-
-.verde-textura p{
-    background-color: #788915;
-    padding: 30px;
-    border-radius: 20px;
-    align-self: center;
-}
-
-/* estilos deportes */
-
-iframe{
-    width: 90vw;
-    height: 80vh;
-}
-
-.video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* ahhhhh josé no alcancé a hacer más, peldón */

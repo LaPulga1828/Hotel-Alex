@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Deportes extremos</h1>
+    <div class="dep-tit">
+      <h1>Deportes extremos</h1>
+    </div>
 
     <div class="video">
       <iframe
@@ -14,7 +16,27 @@
         allowfullscreen
       ></iframe>
     </div>
-    <div style="display: flex; flex-wrap: wrap">
+
+    <div class="dep-text">
+      <p>
+        El Hotel Portal Guane ofrece a sus huéspedes la oportunidad de vivir
+        experiencias únicas a través de un exclusivo convenio con operadores
+        locales especializados en deportes extremos. Desde la emoción del
+        rafting en caudalosos ríos hasta la adrenalina del parapente sobre
+        majestuosos paisajes, cada actividad está pensada para quienes buscan
+        aventura y contacto directo con la naturaleza. También se pueden
+        disfrutar experiencias como la espeleología en misteriosas cavernas, el
+        torrentismo descendiendo por cascadas, el bungee para los más atrevidos
+        y el rappel en imponentes formaciones rocosas. Todas las actividades
+        cuentan con guías profesionales y equipos certificados, garantizando así
+        que cada momento sea tan emocionante como seguro. De esta manera, los
+        huéspedes del Portal Guane no solo descansan, sino que también descubren
+        la magia de la región a través de experiencias llenas de adrenalina y
+        aventura.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; padding-bottom: 40px">
       <CardInfo
         v-for="p in activities"
         :key="p.id"
@@ -26,25 +48,6 @@
         :descripcionComplete="p.descripcionComplete"
       >
       </CardInfo>
-    </div>
-
-    <div>
-      <p>
-        El Hotel Portal Guane ofrece a sus huéspedes la oportunidad de vivir
-        experiencias únicas a través de un exclusivo convenio con operadores
-        locales especializados en deportes extremos. Desde la emoción del
-        rafting en caudalosos ríos hasta la adrenalina del parapente sobre
-        majestuosos paisajes, cada actividad está pensada para quienes buscan
-        aventura y contacto directo con la naturaleza. También se pueden
-        disfrutar experiencias como la espeleología en misteriosas cavernas, el
-        torrentismo descendiendo por cascadas, el bungee para los más atrevidos
-        y el rappel en imponentes formaciones rocosas. Todas las actividades
-        cuentan con guías profesionales, equipos certificados y medidas de
-        seguridad, garantizando así que cada momento sea tan emocionante como
-        seguro. De esta manera, los huéspedes del Portal Guane no solo
-        descansan, sino que también descubren la magia de la región a través de
-        experiencias llenas de adrenalina y aventura.
-      </p>
     </div>
   </div>
 </template>
